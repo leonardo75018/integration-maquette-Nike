@@ -1,0 +1,258 @@
+
+/* Génerale */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+ul {
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: black;
+}
+
+h1{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+h2{
+    font-family: Open Sans;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 49px;
+    
+}
+
+
+/* Les Sections  */
+
+header{
+    width: 100%;
+    height: 8vh;
+    background-color: #ECF0F1;
+}
+
+header  img{
+    margin-top: vh;
+    margin-left: 5vh;
+}
+
+header nav{
+    float: right;
+    margin-top: 3vh;
+    margin-right: 5vh;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 3vh;
+    
+}
+
+/* Presentation */
+
+#presentation{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vh;
+
+}
+
+
+/* clothes */
+#clothes{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+#tech-fleece , #windrumnner-pack , #tech-pack{
+    position: relative;
+}
+
+#tech-fleece .text  {
+    position: absolute;
+    top: 40%;
+    left: 22%;; 
+    text-align: center;
+}
+
+.texte{
+    text-align: center;   
+}
+
+.text h3{
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+#tech-fleece img{
+    box-shadow: 24px 24px 0px 8px rgba(44,62,80,1);
+    
+   
+}
+
+
+/* tech-pack  */
+
+#tech-pack .text{
+    position: absolute;
+    top: 40%;
+    left: 22%;; 
+    text-align: center;
+}
+
+#tech-pack img{
+    box-shadow: 0px 35px 0px 0px rgba(209,205,99,1);
+
+
+}
+
+
+
+
+/* windrumnner-pack */
+#windrumnner-pack .text{
+    position: absolute;
+    top: 40%;
+    left: 22%;; 
+    text-align: center;
+}
+
+#windrumnner-pack img{
+    box-shadow: -24px 24px 0px 8px rgba(44,62,80,1);
+}
+
+
+/* Woman Section  */
+#woman-section{
+    width: 100%;
+    height: auto;
+    padding-top: 20vh;
+    position: relative;
+}
+
+#woman-section .woman-text{
+    width: 50%;
+    height: 50vh;
+    background: #2C3E50;
+    position: absolute;
+    top: 37%;
+    right: 10%;
+}
+
+#woman-section .woman-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#woman-section .woman-text h3{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: #D1CD63;
+   
+}
+#woman-section .woman-text .paragraphe{
+    width: 70%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;   
+}
+
+
+/* Section Kids */
+
+#kids{
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-top: 25vh;
+    padding-bottom: 10vh;
+}
+#kids .kids-image {
+    width: 100%;
+}
+
+.logo-kids{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:55vh;
+    left: 0;
+    background: #2C3E50;
+    color: white;
+    
+}
+
+.logo-kids{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-kids img{  
+   width: 30%;
+  padding: 2vh;
+}
+
+.logo-kids h4{
+    font-family: Open Sans;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+
+/* section footer */
+footer{
+    width: 100%;
+    height: 8vh;
+   
+     background: #ECF0F1;;
+}
+
+#contaiter-footer{
+    width: 90%;
+    height: 8vh;
+    padding-left: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contaiter-footer .reseaux-social img{
+    padding: 2vh;  
+}
